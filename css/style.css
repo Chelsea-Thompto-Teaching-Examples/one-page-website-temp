@@ -1,8 +1,7 @@
 body {
-  background:url(
-data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAYAAAALpr0TAAAAAXNSR0IArs4c6QAAADFJREFUKFNjZCASMBKpjgGu8MGDB/9BmhQUFLBqJt1EQk7AayLIOTCnUEchsnOI9gwA3P8MCkfAMG8AAAAASUVORK5CYII=
-   ) repeat 0 0;
-   font-family: 'Montserrat', sans-serif;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAElJREFUKFNjZCASMILU/fr16z+IZmNjA/NhAFkcrhBdEbJikByKCTDTQRIg05A1Y1iFy2QME9GthPGxmohuLUgxaZ4hOniICXMA/6U4CzEdf54AAAAASUVORK5CYII=
+  ) repeat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
