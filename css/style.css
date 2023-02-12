@@ -1,0 +1,180 @@
+body {
+  background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAYAAAALpr0TAAAAAXNSR0IArs4c6QAAADFJREFUKFNjZCASMBKpjgGu8MGDB/9BmhQUFLBqJt1EQk7AayLIOTCnUEchsnOI9gwA3P8MCkfAMG8AAAAASUVORK5CYII=
+   ) repeat 0 0;
+   font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: xxx-large;
+}
+
+h2 {
+  color: black;
+  font-size: xx-large;
+}
+
+h3 {
+  color: dimgrey;
+  font-size: x-large;
+}
+
+h4 {
+  color: black;
+  font-size: large;
+}
+
+p {
+  line-height: 150%;
+  text-align: justify;
+}
+
+a {
+  color: dimgrey;
+}
+
+.back-button {
+  position: sticky;
+  top: 85%;
+  left: 87.5%;
+  text-align: right;
+  width: fit-content;
+  background-color: white;
+  z-index: 1;
+}
+
+.logo img {
+  height: 150px;
+  width: auto;
+}
+
+.topnav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px 40px 40px;
+  position: relative;
+  text-align: right;
+}
+
+.topnav a {
+  color: black;
+  padding-left: 30px;
+}
+
+.navfloat1 {
+  flex: 25%;
+}
+
+.navfloat2 {
+  flex: 75%;
+  line-height: 150px;
+}
+
+main {
+  margin: auto;
+  max-width: 800px;
+  padding: 40px;
+  position: relative;
+  width: 80%;
+}
+
+section {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.footnav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px;
+  position: relative;
+}
+
+.footnav p {
+  text-align: right;
+}
+
+.footfloat1 {
+  flex: auto;
+}
+
+.footfloat2 {
+  color: dimgrey;
+  flex: auto;
+  font-size: small;
+  font-style: italic;
+}
+
+.two-col {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-a {
+flex: 50%;
+}
+
+.col-a img {
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  padding: 0px;
+  border: none;
+}
+
+.col-b {
+  flex: 40%;
+  justify-content: flex-start;
+}
+
+/*Responsive*/
+@media (max-width: 1200px) {
+  .logo img {
+    height: auto;
+    width: 100%;
+  }
+
+  .col-a {
+    flex: 100%;
+  }
+
+  .col-a img {
+    margin: auto;
+  }
+
+  .col-b {
+    flex: 100%;
+  }
+
+  .topnav {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 5px 5px 40px;
+    text-align: center;
+  }
+
+  .topnav a {
+    width: 100%;
+  }
+
+  .navfloat1 {
+    flex: 100%;
+    padding-bottom: 40px;
+  }
+
+  .navfloat2 {
+    flex: 100%;
+    line-height: 200%;
+  }
+
+  main {
+    padding: 5%;
+    width: 90%;
+  }
+
+  .footfloat1, .footfloat2 {
+    flex: 100%;
+  }
+}
